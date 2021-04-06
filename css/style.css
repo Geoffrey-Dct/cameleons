@@ -1,0 +1,176 @@
+@font-face{
+    font-family: 'Open_sans_regular';
+    src: url(../Open_sans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'Open_sans_extrabold';
+    src: url(../Open_sans/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'Open_sans_extrabolditalic';
+    src: url(../Open_sans/OpenSans-ExtraBoldItalic.ttf);
+}
+
+body{
+    background-color: #2f3848;
+}
+
+#container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open_sans';
+}
+
+header{
+    background-color: #f05768;
+    border-bottom: 2px solid white;
+    text-align: center;
+    height: 10vh;
+
+}
+
+header h1{
+    font-size: 2rem;
+    color: white;
+    
+    line-height: 2em;
+    font-family: 'Open_sans_extrabolditalic';
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    
+}
+
+.nav__page, .nav__réseaux-sociaux{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__page{
+    width: 20%;
+    align-self: center;
+}
+
+.nav__page a{
+    color: yellowgreen;
+    font-family: 'Open_sans_extrabold';
+    text-decoration: none;
+}
+
+.nav__réseaux-sociaux{
+    width: 50px;
+    align-self: center;
+    
+}
+
+.nav__réseaux-sociaux img{
+    height: 20px;
+    width: 20px;
+}
+
+h2{
+    color: #00ccff;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-family: 'Open_sans_extrabolditalic';
+    
+}
+
+.main__description{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.main__description a{
+    color: yellowgreen;
+}
+
+#big_caméléon{
+    background-image: url(../images/cameleon-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 1rem;
+}
+
+#big_caméléon p{
+    color: white;
+    text-transform: uppercase;
+    background-color: #f05768;
+    width: 30%;
+    font-family: 'Open_sans_extrabold';
+    padding: 0.5rem;
+    border-radius: 3px;
+    
+}
+
+.photos_et_newsletter{
+    display: flex;
+}
+
+
+#photos img{
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+#flottant{
+  background-image: url(../images/cameleon01.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 305.2px;
+  height: 305.2px;
+  float: left;
+  margin-right: 0.5rem;
+
+}
+
+#newsletter{
+    background-color:  #004488;
+    height: 290px;
+   
+}
+
+#newsletter h3{
+    color: #00ccff;
+    text-transform: uppercase;
+    font-family: 'Open_sans_extrabold';
+    margin: 1rem;
+    width: 190px;
+    border-bottom: 1px solid #00ccff;
+    padding-bottom: 1rem;
+}
+
+#newsletter p{
+    color: yellowgreen;
+    margin: 1rem;
+}
+ 
+#newsletter a{
+    color: yellowgreen;
+    
+}
+
+footer{
+    color: #00ccff;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+}
+
+footer p{
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
